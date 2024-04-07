@@ -48,6 +48,15 @@ keymap.set('i', '<C-k>', 'copilot#Accept("<CR>")', {
 
 keymap.set("i", "<C-j>", "copilot#Next()", {expr=true, silent=true})
 
+-- Theme
+keymap.set("n", "<leader>1", ":colorscheme everforest<cr>:set background=light<cr>")
+keymap.set("n", "<leader>dark", ":colorscheme everforest<cr>:set background=dark<cr>")
+keymap.set("n", "<leader>fox", ":colorscheme nightfox<cr>")
+keymap.set("n", "<leader>light", ":colorscheme catppuccin-latte<cr>")
+keymap.set("n", "<leader>2", ":colorscheme catppuccin-frappe<cr>")
+keymap.set("n", "<leader>3", ":colorscheme catppuccin-macchiato<cr>")
+keymap.set("n", "<leader>4", ":colorscheme catppuccin-mocha<cr>")
+
 --Registers
 keymap.set("n", "<leader>r", ":Registers<cr>")
 keymap.set("v", "<leader>r", ":Registers<cr>")

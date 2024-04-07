@@ -1,4 +1,4 @@
-return 
+return
 {
   "zbirenbaum/copilot-cmp",
   config = function ()

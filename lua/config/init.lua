@@ -19,7 +19,7 @@ local plugin = "plugins"
 
 local opts = {
 	install = {
-		colorscheme = { "nightfox" },
+		colorscheme = { "everforest" },
 	},
 	rtp = {
 		disabled_plugins = {
