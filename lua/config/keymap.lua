@@ -39,7 +39,7 @@ keymap.set("v", "<c-_>", "gcc") -- '_' represents '/'
 keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
 
--- Copilot
+-- Copilot (Not working have to fix)
 vim.g.copilot_no_tab_map = true
 keymap.set('i', '<C-k>', 'copilot#Accept("<CR>")', {
   expr = true,
@@ -47,3 +47,7 @@ keymap.set('i', '<C-k>', 'copilot#Accept("<CR>")', {
 })
 
 keymap.set("i", "<C-j>", "copilot#Next()", {expr=true, silent=true})
+
+
+-- Useless
+keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
