@@ -48,6 +48,8 @@ keymap.set('i', '<C-k>', 'copilot#Accept("<CR>")', {
 
 keymap.set("i", "<C-j>", "copilot#Next()", {expr=true, silent=true})
 
-
+--Registers
+keymap.set("n", "<leader>r", ":Registers<cr>")
+keymap.set("v", "<leader>r", ":Registers<cr>")
 -- Useless
 keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
