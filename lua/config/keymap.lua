@@ -38,3 +38,12 @@ keymap.set("v", "<c-_>", "gcc") -- '_' represents '/'
 --Indentation
 keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
+
+-- Copilot
+vim.g.copilot_no_tab_map = true
+keymap.set('i', '<C-k>', 'copilot#Accept("<CR>")', {
+  expr = true,
+  replace_keycodes = false
+})
+
+keymap.set("i", "<C-j>", "copilot#Next()", {expr=true, silent=true})
