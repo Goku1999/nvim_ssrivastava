@@ -3,6 +3,6 @@ vim.g.maplocalleader = ","
 
 require("config")
 
-vim.cmd([[colorscheme everfores]])
-vim.cmd([[set backgroud=light]])
+vim.cmd([[colorscheme everforest]])
+vim.cmd([[set background=light]])
 vim.cmd("NvimTreeOpen")
