@@ -5,4 +5,4 @@ require("config")
 
 vim.cmd([[colorscheme everforest]])
 vim.cmd([[set background=light]])
-vim.cmd("NvimTreeOpen")
+--vim.cmd("NvimTreeOpen")

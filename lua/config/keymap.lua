@@ -8,7 +8,9 @@ keymap.set("i", "jj", "<Esc>")
 keymap.set("n", "<leader>s", ":w")
 keymap.set("n", " ", "/")
 keymap.set("n", "0", "^")
-keymap.set("i", "{", "{}<left>")
+keymap.set("i", "{", "{<Enter>}<Esc>O")
+keymap.set("i", "(", "()<left>")
+keymap.set("i", "[", "[]<left>")
 
 -- Tab related keymaps
 keymap.set("n", "<leader>tn", ":tabnew<cr>")
@@ -56,10 +58,6 @@ keymap.set("n", "<leader>light", ":colorscheme catppuccin-latte<cr>")
 keymap.set("n", "<leader>2", ":colorscheme catppuccin-frappe<cr>")
 keymap.set("n", "<leader>3", ":colorscheme catppuccin-macchiato<cr>")
 keymap.set("n", "<leader>4", ":colorscheme catppuccin-mocha<cr>")
-
---Registers
-keymap.set("n", "<leader>r", ":Registers<cr>")
-keymap.set("v", "<leader>r", ":Registers<cr>")
 
 --Diff
 keymap.set("n", "<leader>diff", ":DiffviewOpen<cr>")
