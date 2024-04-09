@@ -60,5 +60,8 @@ keymap.set("n", "<leader>4", ":colorscheme catppuccin-mocha<cr>")
 --Registers
 keymap.set("n", "<leader>r", ":Registers<cr>")
 keymap.set("v", "<leader>r", ":Registers<cr>")
+
+--Diff
+keymap.set("n", "<leader>diff", ":DiffviewOpen<cr>")
 -- Useless
 keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
