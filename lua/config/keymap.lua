@@ -14,8 +14,8 @@ keymap.set("i", "[", "[]<left>")
 
 -- Tab related keymaps
 keymap.set("n", "<leader>tn", ":tabnew<cr>")
-keymap.set("n", "<leader>l", ":bnext<cr>")
-keymap.set("n", "<leader>h", ":bprevious<cr>")
+keymap.set("n", "<leader>l", ":tabnext<cr>")
+keymap.set("n", "<leader>h", ":tabprevious<cr>")
 keymap.set("n", "<leader>bd", ":Bclose<cr>:tabclose<cr>gT")
 
 
