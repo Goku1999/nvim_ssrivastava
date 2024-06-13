@@ -63,3 +63,6 @@ keymap.set("n", "<leader>4", ":colorscheme catppuccin-mocha<cr>")
 keymap.set("n", "<leader>diff", ":DiffviewOpen<cr>")
 -- Useless
 keymap.set("n", "<leader>fml", "<cmd>CellularAutomaton make_it_rain<CR>")
+
+--Mapping Ctrl-v to avoid conflict with termainal paste setting
+keymap.set("n", "<leader>v", "<C-v>")
