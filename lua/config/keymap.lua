@@ -8,7 +8,7 @@ keymap.set("i", "jj", "<Esc>")
 keymap.set("n", "<leader>s", ":w")
 keymap.set("n", " ", "/")
 keymap.set("n", "0", "^")
-keymap.set("i", "{", "{<Enter>}<Esc>O")
+keymap.set("i", "{", "{}<left>")
 keymap.set("i", "(", "()<left>")
 keymap.set("i", "[", "[]<left>")
 
